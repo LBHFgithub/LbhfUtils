@@ -6,6 +6,6 @@ package com.lbhf.thread;
 public class ImplementsThread implements Runnable{
     @Override
     public void run() {
-        System.out.println("实现Runnable接口后重写的Run方法");
+        System.out.println(Thread.currentThread().getName()+"实现Runnable接口后重写的Run方法");
     }
 }
