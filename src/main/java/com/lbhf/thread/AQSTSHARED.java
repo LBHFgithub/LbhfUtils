@@ -1,5 +1,7 @@
 package com.lbhf.thread;
 
+import org.springframework.context.annotation.Configuration;
+
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
